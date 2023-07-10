@@ -1,0 +1,68 @@
+/* GENERAL */
+
+/* reset */
+*{
+  /* tutti gli elementi hanno margin 0  */
+  margin: 0;
+  /* tutti gli elementi hanno padding 0  */
+  padding: 0;
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* più selettori separati da vircola significa che l'istruzione interessa tutti (es sia h2 che h3 che p)  */
+h2, h3, p{
+  margin-bottom: 20px;
+}
+
+h2{
+  color: #C77C01;
+}
+h3{
+  font-style: italic;
+}
+
+
+.container{
+  padding: 10px;
+}
+
+
+
+/* HEADER */
+
+/* più selettori senza virgola significa che un selettore è contenuto da quello che precede (es img dentro header) */
+header{
+  background-color: #ECEDED;
+  text-align: center;
+  border-bottom: 2px solid #C77C01;
+}
+
+header img{
+  width: 150px;
+}
+
+header h1{
+  padding: 22px;
+}
+
+
+/* MAIN */
+
+/* più selettori senza sapzi ne virgole significa che dvono esserci entrambi (es sectione deve essere anche container) */
+section.container{
+  padding-left: 30px;
+}
+
+/* FOOTER */
+footer{
+  text-align: center;
+  border-top: 2px solid #C77C01;
+}
+
+footer p{
+  font-size: 0.8rem;
+  padding: 10px;
+}
